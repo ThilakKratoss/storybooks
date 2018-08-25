@@ -9,8 +9,7 @@ module.exports = function(passport){
         clientID: keys.googleClientID,
         clientSecret: keys.googleClientSecret,
         callbackURL: "/auth/google/callback",
-        proxy:true
-      
+        proxy:true      
 },(accessToken,refreshTocken,profile,done)=>{
     console.log(accessToken);
     console.log(profile);
