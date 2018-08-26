@@ -3,4 +3,4 @@ module.exports = {
     googleClientID:'137091079134-4q4c163d7kmife1a0blerqps5nj0j4es.apps.googleusercontent.com',
     googleClientSecret:'ripAf3--JR-XcYpLEDN4q8Xj'
 
-}
+};

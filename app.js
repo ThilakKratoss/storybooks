@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 //use auth
 app.use('/auth',auth);
 
-const port = process.env.PORT || 4500;
+const port = process.env.PORT || 5000;
 app.listen(port,()=>{
     console.log('server started');
 });
